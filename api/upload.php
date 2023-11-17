@@ -28,7 +28,7 @@ if(!empty($files)){
      $location = 'upload/'.$file_name;
     /* Permanently save the file upload to the upload folder */
 /*    if ( move_uploaded_file($val['tmp_name'], $location) ) { */
-    if ( move_uploaded_file($val['tmp_name'], "/tmp") ) { 
+    if ( move_uploaded_file($val['tmp_name'], "/tmp/aaaa") ) { 
       echo "<p> upload $file_name succeeded...</p>"; 
     } else { 
       echo '<p>upload $file_name failed....</p>'; 
