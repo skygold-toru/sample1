@@ -74,6 +74,7 @@
         <button onclick="openWindow()">Open Window to test html</button>
         <button onclick="closeOpenedWindow()">Close Window</button>
         <button onclick="openNewWindow()">Open New Window</button>
+        <button onclick="openNewWindow2()">Open New Window to visit google</button>
         
 
     </div>
@@ -115,6 +116,9 @@
 
         function openNewWindow() {
             window.open('subpage.html', "hoge");
+        }
+        function openNewWindow2() {
+            window.open('https://www.google.com');
         }
 
         function closeWindow() {
